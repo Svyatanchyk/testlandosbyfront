@@ -1,0 +1,207 @@
+.third-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background: linear-gradient(85.28deg, #1D1CE5 0%, rgba(153, 0, 240, 0.7) 100%);
+
+    .card-basic {
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        width: 265px;
+        margin-right: 100px;
+        box-shadow: 1px 1px 35px 0px rgba(0, 0, 0, 0.75);
+
+        .card-basic-title {
+            height: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .title-basic {
+                margin-left: 15px;
+                font-family: Montserrat-ExtraBold;
+            }
+
+            .basic-line-title {
+                width: 40%;
+                height: 5px;
+                border-radius: 15px;
+                margin-left: 15px;
+                background: linear-gradient(85.28deg, #1D1CE5 0%, rgba(153, 0, 240, 0.7) 100%);
+            }
+
+        }
+
+        .card-basic-info {
+            height: 50%;
+            display: flex;
+
+            li {
+                font-size: 22px;
+                color: #8D8D8D;
+                font-family: Montserrat-VariableFont_wght;
+                list-style: none;
+            }
+
+
+
+        }
+
+        .card-basic-cost {
+            height: 25%;
+            font-family: Montserrat-ExtraBold;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .basic-cost {
+                background: linear-gradient(85.28deg, #1D1CE5 0%, rgba(153, 0, 240, 0.7) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .basic-line-cost {
+                width: 40%;
+                height: 5px;
+                border-radius: 15px;
+                margin-left: 13px;
+                background-color: #b2aeae;
+            }
+
+        }
+    }
+
+    .card-pro {
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+        width: 265px;
+        box-shadow: 1px 1px 35px 0px rgba(0, 0, 0, 0.75);
+        border: 13px solid rgb(255, 217, 0);
+
+        .card-pro-title {
+            height: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .title-pro {
+                margin-left: 15px;
+                font-family: Montserrat-ExtraBold;
+            }
+
+            .pro-line-title {
+                width: 40%;
+                height: 5px;
+                border-radius: 15px;
+                margin-left: 15px;
+                background-color: rgb(255, 217, 0);
+            }
+
+        }
+
+        .card-pro-info {
+            height: 50%;
+            display: flex;
+
+            li {
+                list-style: none;
+                font-size: 22px;
+                color: #8D8D8D;
+                font-family: Montserrat-VariableFont_wght;
+            }
+        }
+
+        .card-pro-cost {
+            height: 25%;
+            font-family: Montserrat-ExtraBold;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .pro-cost {
+                background: linear-gradient(85.28deg, #1D1CE5 0%, rgba(153, 0, 240, 0.7) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .pro-line-cost {
+                width: 40%;
+                height: 5px;
+                border-radius: 15px;
+                margin-left: 13px;
+                background-color: #b2aeae;
+            }
+
+        }
+    }
+
+    .card-standart {
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        width: 265px;
+        margin-left: 100px;
+        box-shadow: 1px 1px 35px 0px rgba(0, 0, 0, 0.75);
+
+        .card-standart-title {
+            height: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .title-standart {
+                margin-left: 15px;
+                font-family: Montserrat-ExtraBold;
+            }
+
+            .standart-line-title {
+                width: 40%;
+                height: 5px;
+                border-radius: 15px;
+                margin-left: 15px;
+                background: linear-gradient(85.28deg, #1D1CE5 0%, rgba(153, 0, 240, 0.7) 100%);
+            }
+
+        }
+
+        .card-standart-info {
+            height: 50%;
+            display: flex;
+
+            li {
+                list-style: none;
+                font-size: 22px;
+                color: #8D8D8D;
+                font-family: Montserrat-VariableFont_wght;
+            }
+
+        }
+
+        .card-standart-cost {
+            height: 25%;
+            font-family: Montserrat-ExtraBold;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .standart-cost {
+                background: linear-gradient(85.28deg, #1D1CE5 0%, rgba(153, 0, 240, 0.7) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .standart-line-cost {
+                width: 40%;
+                height: 5px;
+                border-radius: 15px;
+                margin-left: 13px;
+                background-color: #b2aeae;
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,21 @@
+@import "./adaptive";
+@import "./navbar";
+@import "./first-stage";
+@import "./second-stage";
+@import "./third-stage";
+@import "./footer";
+@import "./slider";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0rem;
+}
+
+.empty-white-back {
+    width: 100%;
+    height: 150px;
+}

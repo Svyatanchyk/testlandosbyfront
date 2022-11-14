@@ -1,0 +1,588 @@
+@media only screen and(min-width:961px) and (max-width: 1980px) {
+    .carousel{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 1211px) {
+    .second-stage .About-us {
+        width: 100% !important;
+
+    }
+
+    .second-stage .Advantages {
+        width: 100% !important;
+    }
+
+    .second-stage .GO-TO {
+        width: 100% !important
+    }
+
+}
+
+@media only screen and (max-width: 1112px) {
+    .second-stage .Advantages .photo-Advantages {
+        background-size: cover !important;
+
+    }
+
+    .second-stage .About-us .photo-About-Us {
+        background-size: cover !important;
+
+    }
+
+}
+
+@media only screen and (max-width: 970px) {
+    .footer .s-part .s-part-text-s {
+        display: none !important;
+    }
+
+    .footer .s-part .s-part-text-f {
+        display: flex;
+    }
+
+    .footer .s-part .s-part-text-f .s-part-list-s {
+        list-style: none;
+        display: flex !important;
+        flex-direction: column;
+
+        li {
+            cursor: pointer;
+            margin-top: 35px;
+        }
+    }
+
+    .footer .f-part .f-part-adress .f-part-adress-text {
+        position: absolute;
+        right: 50px;
+    }
+
+    .footer .f-part .f-part-icons .f-part-icons-easyo .f-part-icons-easyo-photo {
+        margin-left: 40px !important;
+    }
+
+    .footer .f-part .f-part-icons .f-part-icons-social .f-part-icons-social-list {
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    .navbar .nav_left #menuToggle {
+        margin-bottom: 100px !important;
+        display: block !important;
+    }
+
+    .navbar .nav_left .header_list_left .display-none {
+        display: none;
+    }
+
+    .second-stage {
+        display: none !important;
+    }
+
+    .navbar .nav_right .header_list_right {
+        display: none !important;
+
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .third-stage {
+        display: flex;
+        justify-content: space-around !important;
+        align-items: center;
+        height: 1300px !important;
+        flex-direction: column;
+        background: linear-gradient(85.28deg, #1D1CE5 0%, rgba(153, 0, 240, 0.7) 100%);
+    }
+
+    .third-stage .card-basic {
+        height: 300px !important;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        width: 50% !important;
+        margin-right: 0px !important;
+        box-shadow: 1px 1px 35px 0px rgb(0 0 0 / 75%);
+    }
+
+
+
+
+    .third-stage .card-basic .card-basic-cost {
+        margin-top: 10px;
+    }
+
+    .third-stage .card-pro {
+        height: 320px !important;
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+        width: 50% !important;
+        box-shadow: 1px 1px 35px 0px rgb(0 0 0 / 75%);
+        border: 13px solid rgb(255, 217, 0);
+    }
+
+    .card-pro-cost {
+        margin-top: 10px;
+    }
+
+    .third-stage .card-standart {
+        height: 320px !important;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        width: 50% !important;
+        margin-left: 0px !important;
+        box-shadow: 1px 1px 35px 0px rgb(0 0 0 / 75%);
+    }
+
+    .navbar .nav_left #menuToggle {
+        margin-bottom: 100px !important;
+        display: block !important;
+    }
+
+    .navbar .nav_left .header_list_left .display-none {
+        display: none;
+    }
+
+    .second-stage {
+        display: none !important;
+    }
+
+    .navbar .nav_right .header_list_right {
+        display: none !important;
+
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .second-stage .About-us .text .text-container .h-About-Us {
+        font-size: 40px !important;
+    }
+
+    .second-stage .About-us .text .text-container .p-About-Us {
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .navbar .nav_left {
+        position: absolute;
+        top: -10px;
+    }
+}
+
+///////////FOOTER
+
+
+@media only screen and (max-width: 768px) {
+    .d-md-flex{
+        display: flex!important;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+    .first-stage {
+        height: 350px !important;
+    }
+
+    .footer .f-part .f-part-icons .f-part-icons-easyo .f-part-icons-easyo-photo {
+        margin-left: 20px !important;
+    }
+
+    .footer .s-part .s-part-text-f {
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 590px) {
+    .footer .f-part .f-part-icons .f-part-icons-easyo .f-part-icons-easyo-photo {
+        margin-left: 10px !important;
+        width: 230px !important;
+        height: 170px !important;
+        margin-top: 40px;
+    }
+
+    .footer .f-part .f-part-icons .f-part-icons-social .f-part-icons-social-list {
+        margin-left: -30px !important;
+    }
+
+    .footer .f-part .f-part-adress .f-part-adress-text-margin {
+        display: none;
+    }
+
+    .mb-sm-5 {
+        margin-bottom: 10rem!important;
+    }
+
+}
+
+@media only screen and (max-width: 568px) {
+
+
+    .footer .f-part .f-part-adress .f-part-adress-text {
+        position: absolute;
+        right: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 493px) {
+
+    .footer .f-part .f-part-icons .f-part-icons-easyo .f-part-icons-easyo-photo {
+        margin-left: 5px !important;
+        width: 200px !important;
+        height: 150px !important;
+        margin-top: 60px;
+    }
+
+    .footer .f-part .f-part-icons .f-part-icons-social .f-part-icons-social-list {
+        padding-left: 0.5rem !important;
+    }
+
+    .footer .f-part .f-part-adress .f-part-adress-text {
+        position: absolute;
+        right: 70px;
+    }
+
+    .footer .s-part .s-part-text-f .s-part-list-f {
+        padding-left: 1rem !important;
+    }
+
+    .third-stage .card-pro .card-pro-info ul {
+
+        padding-left: 1rem!important;
+    }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+    .footer .s-part .s-part-text-f {
+        font-size: 18px !important;
+    }
+
+    .footer .f-part .f-part-icons .f-part-icons-social .f-part-icons-social-list {
+        font-size: 5px;
+    }
+
+    .mb-sm-5 {
+        margin-bottom: 14rem!important;
+    }
+
+    .about-us-slider-h5 {
+        color: black !important;
+        text-align: center!important;
+    }
+
+    .advantages-slider-h5 {
+        text-align: center!important;
+    }
+
+    .go-to-slider-h5 {
+        text-align: center!important;
+    }
+
+    .about-us-slider-p {
+        text-align: center!important;
+    }
+
+    .advantages-slider-p {
+        text-align: center!important;
+    }
+
+    .go-to-slider-p {
+        text-align: center!important;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .navbar .nav_right {
+        position: absolute;
+        right: 10px;
+    }
+
+    .first-stage .f-stage-left .f-text-one p {
+        margin-left: 37px;
+    }
+
+
+
+    .navbar .nav_right {
+        position: absolute;
+        right: -100px;
+    }
+
+    .third-stage .card-basic .card-basic-info li {
+        font-size: 18px !important;
+        color: #8D8D8D;
+        font-family: Montserrat-VariableFont_wght;
+    }
+
+    .third-stage .card-pro .card-pro-info li {
+        font-size: 18px !important;
+        color: #8D8D8D;
+        font-family: Montserrat-VariableFont_wght;
+    }
+
+    .third-stage .card-pro .card-pro-info .card-pro-info-list {
+        padding-left: 1.5rem !important;
+    }
+
+    .third-stage .card-standart .card-standart-info li {
+        font-size: 18px !important;
+        color: #8D8D8D;
+        font-family: Montserrat-VariableFont_wght;
+    }
+
+}
+
+@media only screen and (max-width: 433px) {
+    .footer .s-part .s-part-text-f {
+        font-size: 15px !important;
+    }
+
+    .footer .f-part .f-part-icons .f-part-icons-easyo .f-part-icons-easyo-photo {
+        margin-left: 5px !important;
+        width: 150px !important;
+        height: 100px !important;
+        margin-top: 60px;
+    }
+
+    .footer {
+        display: flex;
+        height: 300px !important;
+        min-height: calc(100vh - 300px) !important;
+        box-shadow: 1px -26px 29px -10px rgb(66 68 90);
+    }
+
+    .footer .f-part .f-part-adress .f-part-adress-text {
+        position: absolute;
+        right: 70px;
+
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 426px) {
+    .first-stage {
+        height: 300px !important;
+    }
+
+    .third-stage .card-pro .card-pro-info .card-pro-info-list {
+        padding-left: 0.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .advantages-slider-btn {
+        font-size: 13px!important;
+        display: none;
+    }
+    
+    .about-us-slider-btn {
+        font-size: 13px!important;
+        display: none;
+    }
+    
+    .go-to-slider-btn {
+        font-size: 13px!important;
+        display: none;
+    }
+
+    .advantages-slider-p {
+        margin-left: -10px!important;
+        text-align: center!important;
+        font-size: 13px!important;
+        margin-bottom: 270px !important;
+    }
+
+    .advantages-slider-h5 {
+        text-align: center!important;
+        margin-left: 3px!important;
+    }
+
+    .go-to-slider-h5 {
+        margin-top: 15px!important;
+        text-align: center!important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 387px) {
+    .footer .s-part .s-part-text-f {
+        font-size: 13px !important;
+    }
+
+    .footer .f-part .f-part-adress .f-part-adress-text {
+        position: absolute;
+        right: 70px;
+
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .footer .f-part .f-part-icons .f-part-icons-easyo .f-part-icons-easyo-photo {
+        margin-left: 5px !important;
+        width: 130px !important;
+        height: 80px !important;
+        margin-top: 60px;
+    }
+
+
+    .footer .s-part .s-part-text-f .s-part-list-f {
+        padding-left: 0rem !important;
+    }
+
+    .footer .f-part .f-part-icons .f-part-icons-social .f-part-icons-social-list li img {
+        height: 17px !important;
+        width: 17px !important;
+    }
+
+    .third-stage .card-pro .card-pro-info .card-pro-info-list {
+        padding-left: 0rem !important;
+    }
+
+    .third-stage .card-basic .card-basic-info .card-basic-info-list {
+        padding-left: 0.5rem !important;
+    }
+
+    .third-stage .card-standart .card-standart-info .card-standart-info-list {
+        padding-left: 0.5rem !important;
+    }
+
+    .about-us-slider-h5 {
+        text-align: center!important;
+    }
+
+
+
+    .about-us-slider-p {
+        text-align: center!important;
+        font-size: 13px!important;
+    }
+
+
+
+    .go-to-slider-p {
+        text-align: center!important;
+        font-size: 13px!important;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 375px) {
+    .navbar .nav_left .header_list_left li{
+        margin-left: 20px!important;
+        margin-top: 2px;
+
+    }
+    .third-stage .card-pro .card-pro-info li {
+        font-size: 16px !important;
+
+    }
+
+}
+
+@media only screen and (max-width: 336px) {
+
+    .third-stage .card-basic .card-basic-info li {
+        font-size: 14px !important;
+        white-space: nowrap;
+    }
+
+    .third-stage .card-pro .card-pro-info li {
+        font-size: 14px !important;
+        white-space: nowrap;
+    }
+
+    .third-stage .card-standart .card-standart-info li {
+        font-size: 15px !important;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .footer .s-part .s-part-text-f {
+        font-size: 12px !important;
+    }
+
+    .footer .f-part .f-part-adress .f-part-adress-text {
+        position: absolute;
+        right: 60px;
+
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .slider{
+        height: 200px!important;
+    }
+    .slider .slide-About-Us .slide-info-About-Us .slide-info-text-About-Us .h-slide-About-Us{
+        font-size: 14px!important;
+    }
+    .slider .slide-About-Us .slide-info-About-Us .slide-info-text-About-Us .p-slide-About-Us{
+        font-size: 8px!important;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .first-stage .f-stage-left .f-text-one p {
+        font-size: 18px;
+    }
+
+    .first-stage .f-stage-left .f-text-two p {
+        font-size: 8px;
+    }
+
+    .first-stage .f-stage-right {
+        width: 131.91px;
+        height: 113px;
+    }
+
+    .first-stage .f-stage-left .f-text-butt {
+        margin-top: 10px;
+
+    }
+
+    .first-stage .f-stage-left .f-text-butt .button_GetStarted {
+        width: 72px !important;
+        height: 20px !important;
+        font-size: 8px !important;
+    }
+
+    .navbar .nav_left .header_list_left li a img{
+        width: 69.42px!important;
+        margin-top: 20px;
+    }
+
+    .navbar .nav_left .header_list_left li{
+        margin-left: 20px!important;
+        margin-top: 2px;
+
+    }
+
+}
